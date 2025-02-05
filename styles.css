@@ -82,22 +82,22 @@ nav ul li {
 
 /* Style rules for Navbar*/
 .hero-navbar {
-    background-color: beige; /* Dark background for the navbar */
-    padding: 10px 20px; /* Add some padding */
+    background-color: beige; 
+    padding: 10px 20px; 
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Vertically center items */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    position: fixed; /* Fix the navbar at the top */
+    align-items: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Ensure it stays on top of other content */
+    z-index: 1000; 
 }
 
 .hero-navbar h1 {
-    height: 10px; /* Set a fixed height for the logo */
-    width: auto; /* Maintain aspect ratio */
+    height: 10px; 
+    width: auto; 
     font-family: cursive;
 }
 
@@ -114,13 +114,13 @@ nav ul li {
 }
 
 .hero-navbar ul li a {
-    color: rgb(184, 181, 181); /* Set the link text color to white */
+    color: rgb(184, 181, 181); 
     text-decoration: none;
     font-weight: bold;
 }
 
 .hero-navbar ul li a:hover {
-    color: #ff9800; /* Change link color on hover */
+    color: #ff9800; 
 }
 
 /*Testimonials*/
@@ -128,7 +128,7 @@ nav ul li {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .card {
@@ -146,9 +146,9 @@ nav ul li {
 .testimonial-img {
     width: 80px; 
     height: 80px;
-    border-radius: 50%; /* Make the image circular */
-    margin-bottom: 15px; /* Add space below the image */
-    object-fit: cover; /* Ensure the image fits well */
+    border-radius: 50%; 
+    margin-bottom: 15px; 
+    object-fit: cover;
 }
 
 .card h3 {
@@ -159,5 +159,5 @@ nav ul li {
 .card p {
     font-size: 14px;
     font-style: italic;
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
