@@ -144,7 +144,7 @@ nav ul li {
 }
 
 .testimonial-img {
-    width: 80px; /* Set a fixed size for the image */
+    width: 80px; 
     height: 80px;
     border-radius: 50%; /* Make the image circular */
     margin-bottom: 15px; /* Add space below the image */
